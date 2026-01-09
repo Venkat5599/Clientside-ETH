@@ -15,6 +15,7 @@ function App() {
    </WagmiProvider>   
   )
 }
+
 function ConnectWallet(){
   const {address} = useAccount()
   const connectors = useConnectors()
